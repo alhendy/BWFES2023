@@ -28,7 +28,7 @@ courses = [
     "location" : "Tech 200 institute",
       "course_price": 2000,
      "start_date": "11 May 2022",
-    "course-image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/130px-VB.NET_Logo.svg.png"
+    "course_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/130px-VB.NET_Logo.svg.png"
   },
   {
     "id" : 4,
@@ -37,7 +37,7 @@ courses = [
     "location" : "Tech 200 institute",
       "course_price": 2000,
      "start_date": "11 May 2022",
-    "course-image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/130px-VB.NET_Logo.svg.png"
+    "course_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/130px-VB.NET_Logo.svg.png"
   }
 ]
 @app.route('/api/courses')
