@@ -1,0 +1,15 @@
+<div class="border-bottom row ">
+  <div class="col-9">
+  <h4>{{course['title']}}</h4>
+  {% if 'course_image' in course %}
+  <img id= "course_img" src="{{course['course_image']}}">
+  {% endif %}
+  <div> <b>Location:</b> {{course['location']}} </div>
+    <div><b>Start Date : </b>{{course['start_date']}}</div>
+  <div> <b>Price:</b> SD {{course['course_price']}}.</div>
+  </div>
+  <div class="col-3">
+  <button type="button" class="btn btn-outline-primary">Apply</button>
+  </div>
+
+</div>
