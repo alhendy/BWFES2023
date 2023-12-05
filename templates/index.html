@@ -11,9 +11,11 @@
     <link href= "static/css/styles.css" rel="stylesheet" type="text/css" />
     </head>
   <body>
+    {% include 'nav.html' %}
+    <img class="img-fluid" id="banner" src="static/imgs/banar.avif">
     <div class="container">
     <h1>Education Services </h1>
-    <img class="img-fluid" id="banner" src="static/imgs/banar.avif">
+    
       <h2>About Servives</h2>
     <p>
        Do you like Cheese Whiz? Spray tan? Fake eyelashes? That's what is Lorem Ipsum to 
@@ -29,12 +31,13 @@
         {% include 'courses.html' %}
         {% endfor %}
     </div>
-    <button class="btn btn-primary btn-lg">Contact US</button>
-    <h2>Opened Register Latest </h2>
-    <p> TODOO - SHow courses opening </p>
-    <button class="btn btn-primary btn-lg">Register Now</button>
-    </div>
+      <div>
+    <h2>Latest Opened Register  </h2> 
+        {% include 'started.html' %}
+      <div>
+        {% include 'footer.html' %}
+      </div>
+    
 
   </body>
-
 </html>
