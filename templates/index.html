@@ -15,16 +15,24 @@
     <img class="img-fluid" id="banner" src="static/imgs/banar.avif">
     <div class="container">
     <h1>Education Services </h1>
-    
+      <div class="container ">  
+      <div class="row shadow-lg p-3 mb-5 bg-body rounded "> 
+      <div class="col-6">
       <h2>About Servives</h2>
     <p>
-       Do you like Cheese Whiz? Spray tan? Fake eyelashes? That's what is Lorem Ipsum to 
-      many—it rubs them the wrong way, all the way. It's unreal, uncanny, makes you 
-     wonder if something is wrong, it seems to seek your attention for all the wrong 
-     reasons. Usually, we prefer the real thing, wine without sulfur based preservatives, 
-      real butter, not margarine, and so we'd like our layouts and designs to be filled 
-     with real words, with thoughts that count, information that has value.
+      Education helps you develop critical skills like decision-making, mental agility, problem-solving,
+      and logical thinking People face problems in their professional as well as personal 
+      lives. In such situations, their ability to make rational and informed
+      decisions comes from how educated and self-aware they are.
+      It necessary to have regards to what you are going to learn.
+      So Homework and tests are the starting for your succcess,please !
+      leave anything aside and pay attention.
     </p>
+      </div>
+      <div class="col-6">
+        <img src= "static/imgs/edu.avif" class="img-fluid">
+        </div>
+        </div>
     <h2>Avalible courses </h2>
     <div> 
         {% for course in all_courses %}
@@ -32,6 +40,7 @@
         {% endfor %}
     </div>
       <div>
+      </div>
     <h2>Latest Opened Register  </h2> 
         {% include 'started.html' %}
       <div>
